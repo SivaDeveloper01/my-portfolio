@@ -81,7 +81,7 @@ function redirectToEmail(){
     // Construct mailto URL
     const emailSubject = 'Contact Form Submission';
     const emailBody = `Name: ${encodedName}%0AEmail: ${encodedEmail}%0AMessage: ${encodedMessage}`;
-    const mailtoURL = `mailto:sutharsanan100@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${emailBody}`;
+    const mailtoURL = `mailto:sivamani072001@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${emailBody}`;
 
     // Redirect to mailto URL
     window.location.href = mailtoURL;
